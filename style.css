@@ -61,7 +61,23 @@ footer{
     text-align: center;
     background-color: grey;
     color: white;
-    margin-top: 15px;
-    line-height: 15px;
-    padding: 5px;
+    padding: 20px;
 }
+
+h1.head{
+    text-align: center;
+    color: red;
+    ;
+}
+
+div.gallery{
+    text-align: center;
+}
+
+div.gallery img{
+    width: 45%;
+    margin: 10px;
+    border-bottom: 10px red solid;
+}
+
+
