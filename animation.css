@@ -1,0 +1,24 @@
+div.square{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes s{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+
+@keyframes square{
+    100%{
+        background-color: red;
+        transform: rotate(360deg);
+    }
+}
